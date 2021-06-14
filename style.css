@@ -133,6 +133,10 @@ nav {
   margin-bottom: 40px;
   transition: transform 0.5s;
 }
+
+.col-4 > a {
+  display: block;
+}
 .col-4:hover {
   transform: translateY(-5px);
 }
@@ -142,10 +146,11 @@ nav {
 .product {
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
-.product .product-name {
+.product > .product-name {
   color: #555;
   font-weight: normal;
   margin: 8px 0 0 8px;
+  text-decoration: none;
 }
 .product .rating {
   margin: 8px 0 8px 8px;
